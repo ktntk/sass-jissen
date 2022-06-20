@@ -1,0 +1,13 @@
+@use "../global" as *;
+
+.button {
+  text-align: center;
+  &_submit {
+    padding: 1% 5%;
+    background-color: $cGray;
+    margin: 5% 0;
+    font-weight: bold;
+    border: none;
+    color: $cWhite;
+  }
+}
